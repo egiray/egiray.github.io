@@ -1,1 +1,16 @@
+# Authorized sellers for Erdem Giray apps (IAB app-ads.txt).
+# One line per ad network we are actually signed up with. A line with an ID we
+# do not own authorizes nothing, so a network is added here only after its
+# publisher account exists.
+
+# Google AdMob — primary demand, live.
 google.com, pub-4165378677056450, DIRECT, f08c47fec0942fa0
+
+# Meta Audience Network — mediated through AdMob. Meta accepts the business ID
+# or the property ID in field two; both are listed so either crawl matches.
+facebook.com, 299897447625945, RESELLER, c3e20eee3f780d68
+facebook.com, 1964290130948939, RESELLER, c3e20eee3f780d68
+
+# AppLovin and Unity are not listed yet: their lines carry our own publisher ID
+# from those dashboards, and neither account exists (AppLovin application is
+# still pending). They get added the day an account is approved.
