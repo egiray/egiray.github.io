@@ -96,8 +96,8 @@
         <strong>Summary:</strong> Emoji Match never asks you for personal
         information. There is no account, no sign in and no form to fill in, so
         we never learn your name, your email address or where you are. We use
-        two trusted third-party services: Google Firebase for analytics and
-        Google AdMob for advertising. The game is free and supported by
+        three trusted third-party services: Google Firebase for analytics,
+        Google AdMob for advertising and AppsFlyer for install attribution. The game is free and supported by
         advertising, and it has nothing to buy.
       </p>
     </div>
@@ -134,8 +134,8 @@
       </tr>
       <tr>
         <td>Device and Advertising IDs (shared with partners)</td>
-        <td>Advertising, Analytics</td>
-        <td>Google AdMob, Firebase</td>
+        <td>Advertising, Analytics, Attribution</td>
+        <td>Google AdMob, Firebase, AppsFlyer</td>
       </tr>
       <tr>
         <td>
@@ -223,6 +223,34 @@
       </p>
     </div>
 
+    <div class="service-box">
+      <h3>AppsFlyer (Attribution)</h3>
+      <p>
+        AppsFlyer tells us which advertisement a player arrived from, so that we
+        know whether advertising the game was worth paying for. It counts the
+        install and the session, and it is told one thing afterwards: that a
+        level was completed, and which one.
+      </p>
+      <p><strong>Data collected:</strong></p>
+      <ul>
+        <li>A device identifier, and the advertising identifier</li>
+        <li>Device information</li>
+        <li>IP address</li>
+        <li>Install and session counts</li>
+      </ul>
+      <p>
+        <strong>On iOS:</strong> Apple's "Allow this app to track your activity"
+        prompt appears once per install. If you say no, the advertising
+        identifier is not used for tracking.
+      </p>
+      <p>
+        <strong>Privacy Policy:</strong>
+        <a href="https://www.appsflyer.com/legal/services-privacy-policy/" target="_blank"
+          >AppsFlyer Services Privacy Policy</a
+        >
+      </p>
+    </div>
+
     <h2>4. Local Storage</h2>
     <p>
       The App stores the following data
@@ -231,7 +259,7 @@
     <ul>
       <li>Game progress: the level you are on and which tutorials you have seen</li>
       <li>Settings preferences: sound and vibration</li>
-      <li>That you accepted the Terms of Use</li>
+      <li>That you accepted the <a href="terms-of-use.html">Terms of Use</a></li>
     </ul>
     <p>
       This data stays on your device. You can delete it by uninstalling the App.
@@ -241,8 +269,8 @@
     <p>The App requests minimal permissions:</p>
     <ul>
       <li>
-        <strong>Internet and network state:</strong> Required for ads and
-        analytics
+        <strong>Internet and network state:</strong> Required for ads,
+        analytics and attribution
       </li>
       <li>
         <strong>Vibration:</strong> For haptic feedback (can be disabled in
@@ -259,7 +287,7 @@
       The App is not directed at children. We do not knowingly collect personal
       information from children under 13, and in fact the App collects no
       personal information from anyone. The third-party services we use
-      (Firebase, AdMob) have their own policies regarding children's data.
+      (Firebase, AdMob, AppsFlyer) have their own policies regarding children's data.
     </p>
     <p>
       If you are a parent or guardian and believe your child has provided
@@ -272,6 +300,10 @@
       <li>
         <strong>Analytics data:</strong> Retained by Firebase according to their
         data retention policies (typically 14 months)
+      </li>
+      <li>
+        <strong>Attribution data:</strong> Retained by AppsFlyer according to
+        its own data retention policy
       </li>
       <li>
         <strong>Ad data:</strong> Managed by Google according to its privacy
