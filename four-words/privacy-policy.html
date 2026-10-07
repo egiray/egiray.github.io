@@ -89,17 +89,16 @@
   </head>
   <body>
     <h1>Four Words - Privacy Policy</h1>
-    <p class="last-updated">Last updated: August 18, 2026</p>
+    <p class="last-updated">Last updated: October 7, 2026</p>
 
     <div class="highlight">
       <p>
         <strong>Summary:</strong> Four Words does not ask
         you for personal information in order to play. We use trusted
-        third-party services for analytics, advertising, crash reporting and
-        optional cloud save. The only personal information we ever receive is
-        what you choose to type into the in-app "Report a problem" form. You
-        can play without creating any account, and the App contains no in-app
-        purchases.
+        third-party services for analytics, advertising, attribution, crash
+        reporting and optional cloud save. We never receive your name or email
+        address. You can play without creating any account, and the App
+        contains no in-app purchases.
       </p>
     </div>
 
@@ -118,10 +117,9 @@
     <h2>2. Information We Collect</h2>
     <p>
       The App never asks for your name, phone number or address, and it does
-      not require an account. It collects an email address only in one case:
-      if you use the in-app "Report a problem" form and choose to type your
-      email so that we can reply to you. Everything else is collected
-      automatically by the third-party services below:
+      not require an account. There is no login and no contact form anywhere
+      in the game. Everything below is collected automatically by the
+      third-party services below:
     </p>
 
     <table>
@@ -137,8 +135,8 @@
       </tr>
       <tr>
         <td>Advertising ID</td>
-        <td>Advertising</td>
-        <td>Google AdMob</td>
+        <td>Advertising, Attribution</td>
+        <td>Google AdMob, AppsFlyer</td>
       </tr>
       <tr>
         <td>Crash Data</td>
@@ -149,11 +147,6 @@
         <td>Game Progress</td>
         <td>Cloud Save (optional)</td>
         <td>Apple Game Center / Google Play Games</td>
-      </tr>
-      <tr>
-        <td>Email Address &amp; Message (optional)</td>
-        <td>Answering Your Support Request</td>
-        <td>Web3Forms</td>
       </tr>
     </table>
 
@@ -183,11 +176,17 @@
     <div class="service-box">
       <h3>Google AdMob</h3>
       <p>
-        We display banner and interstitial advertisements using Google AdMob.
-        AdMob may collect data to show relevant ads. On iOS, ads are only
-        personalized if you allow tracking when the system asks; where
-        required, a consent message is shown before personalized ads are
-        served.
+        We display banner, interstitial and rewarded video advertisements using
+        Google AdMob. AdMob may collect data to show relevant ads. Where the
+        law requires it (the EEA, the UK and Switzerland), Google's consent
+        form is shown before any ad is requested, and your answer decides
+        whether the ads you see are personalized. On iOS, ads are only
+        personalized if you also allow tracking when the system asks.
+      </p>
+      <p>
+        Rewarded videos are always your choice: you watch one only when you
+        accept an offer for a reward. Nothing in the game forces you to watch
+        one.
       </p>
       <p><strong>Data collected:</strong></p>
       <ul>
@@ -196,6 +195,12 @@
         <li>IP address</li>
         <li>Ad interaction data</li>
       </ul>
+      <p>
+        AdMob runs an auction for each ad slot, and other advertising networks
+        bid in it through AdMob's mediation. Unity Ads and Liftoff Monetize
+        take part that way, so they can receive the same advertising
+        identifier and device information.
+      </p>
       <p>
         <strong>Opt-out:</strong> You can limit ad tracking in your device
         settings:
@@ -211,43 +216,44 @@
         </li>
       </ul>
       <p>
-        <strong>Privacy Policy:</strong>
+        <strong>Privacy Policies:</strong>
         <a href="https://policies.google.com/privacy" target="_blank"
           >Google Privacy Policy</a
+        >
+        &middot;
+        <a href="https://unity.com/legal/privacy-policy" target="_blank"
+          >Unity Privacy Policy</a
+        >
+        &middot;
+        <a href="https://liftoff.ai/privacy-policy/" target="_blank"
+          >Liftoff Privacy Policy</a
         >
       </p>
     </div>
 
     <div class="service-box">
-      <h3>In-App Feedback Form (Web3Forms)</h3>
+      <h3>AppsFlyer (Attribution)</h3>
       <p>
-        The App has a "Report a problem" form, reachable from Settings and
-        from the end-of-level screen. It is entirely optional; nothing is
-        sent unless you fill it in and tap send. We use Web3Forms to deliver
-        your message to our support inbox; Web3Forms only relays the message
-        on our behalf.
+        AppsFlyer tells us which advertisement a player arrived from, so that we
+        know whether advertising the game was worth paying for. It counts the
+        install and the session, and nothing about your play is sent to it.
       </p>
-      <p><strong>Data sent when you submit the form:</strong></p>
+      <p><strong>Data collected:</strong></p>
       <ul>
-        <li>Your message (required in order to send the form)</li>
-        <li>
-          Your email address (<strong>optional</strong>): provide it only if
-          you would like a reply
-        </li>
-        <li>
-          Technical context to help us reproduce the issue: app version,
-          language, and the level and on-screen words at the time
-        </li>
+        <li>A device identifier, and the advertising identifier</li>
+        <li>Device information</li>
+        <li>IP address</li>
+        <li>Install and session counts</li>
       </ul>
       <p>
-        If your device is offline, the message is kept on your device and sent
-        the next time the App starts. We use what you send only to answer you
-        and to fix the problem.
+        <strong>On iOS:</strong> Apple's "Allow this app to track your activity"
+        prompt appears once per install, at the first launch. If
+        you say no, the advertising identifier is not used for tracking.
       </p>
       <p>
         <strong>Privacy Policy:</strong>
-        <a href="https://web3forms.com/privacy" target="_blank"
-          >Web3Forms Privacy Policy</a
+        <a href="https://www.appsflyer.com/legal/services-privacy-policy/" target="_blank"
+          >AppsFlyer Services Privacy Policy</a
         >
       </p>
     </div>
@@ -300,10 +306,6 @@
     <ul>
       <li>Game progress (current level, coins, lives, remaining hints)</li>
       <li>Settings preferences (sound, haptics, language)</li>
-      <li>
-        A feedback message you have written but that has not been delivered
-        yet, until it is sent
-      </li>
     </ul>
     <p>
       Apart from optional cloud save described above, this data stays on your
@@ -327,7 +329,7 @@
     <p>
       The App is suitable for all ages. We do not knowingly collect personal
       information from children under 13. The third-party services we use
-      (Firebase, AdMob, Sentry, Web3Forms) have their own policies regarding
+      (Firebase, AdMob, AppsFlyer, Sentry) have their own policies regarding
       children's data.
     </p>
     <p>
@@ -349,9 +351,8 @@
         policy
       </li>
       <li>
-        <strong>Feedback messages:</strong> Kept in our support inbox for as
-        long as needed to resolve your request. Write to us at the address
-        below and we will delete your message and email address.
+        <strong>Attribution data:</strong> Retained by AppsFlyer according to
+        its own data retention policy
       </li>
     </ul>
 
@@ -372,16 +373,12 @@
             <strong>Cloud save.</strong> It lives in your own Game Center or
             Google Play Games account, and you can delete it there at any time.
           </li>
-          <li>
-            <strong>A feedback message you sent us.</strong> Write to the
-            address below and we will delete it, together with your email
-            address.
-          </li>
         </ul>
       </li>
       <li>
         <strong>Opt-out:</strong> Disable ad tracking and analytics via device
-        settings
+        settings. In the EEA, the UK and Switzerland you can also change your
+        ad consent choice.
       </li>
     </ul>
     <p>
