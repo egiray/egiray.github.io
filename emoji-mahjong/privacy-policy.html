@@ -89,16 +89,17 @@
   </head>
   <body>
     <h1>Emoji Mahjong - Privacy Policy</h1>
-    <p class="last-updated">Last updated: September 25, 2026</p>
+    <p class="last-updated">Last updated: October 27, 2026</p>
 
     <div class="highlight">
       <p>
         <strong>Summary:</strong> Emoji Mahjong never asks you for personal
         information. There is no account, no sign in and no form to fill in, so
         we never learn your name, your email address or where you are. We use
-        four trusted third-party services: Google Firebase for analytics,
-        Google AdMob for advertising, AppsFlyer for install attribution and
-        Sentry for crash reports. The game is free and supported by
+        trusted third-party services: Google Firebase for analytics, Google
+        AdMob for advertising (with Unity Ads and Liftoff Monetize bidding
+        through it), AppsFlyer for install attribution and Sentry for crash
+        reports. The game is free and supported by
         advertising, and it has nothing to buy.
       </p>
     </div>
@@ -141,7 +142,10 @@
       <tr>
         <td>Device and Advertising IDs (shared with partners)</td>
         <td>Advertising, Analytics, Attribution</td>
-        <td>Google AdMob, Firebase, AppsFlyer</td>
+        <td>
+          Google AdMob (with Unity Ads and Liftoff Monetize), Firebase,
+          AppsFlyer
+        </td>
       </tr>
       <tr>
         <td>
@@ -161,16 +165,19 @@
     <h2>3. Third-Party Services</h2>
 
     <div class="service-box">
-      <h3>Google Firebase Analytics</h3>
+      <h3>Google Firebase (Analytics and Remote Config)</h3>
       <p>
         We use Firebase Analytics to understand how players use our App, for
-        example which levels are too hard.
+        example which levels are too hard, and Firebase Remote Config to change
+        a few game settings, such as how often ads appear, without a new
+        release.
       </p>
       <p><strong>Data collected:</strong></p>
       <ul>
         <li>
           App usage events: level starts and ends, levels won, the tutorial,
-          ads shown and rewarded videos watched
+          ads shown and rewarded videos watched, and our own games shown or
+          tapped in the banner space
         </li>
         <li>Device information (model, OS version)</li>
         <li>General location (country or region, not precise location)</li>
@@ -188,8 +195,8 @@
     <div class="service-box">
       <h3>Google AdMob</h3>
       <p>
-        We display interstitial and rewarded video advertisements using Google
-        AdMob. AdMob may collect data to show relevant ads. Where the law
+        We display banner, interstitial and rewarded video advertisements using
+        Google AdMob. AdMob may collect data to show relevant ads. Where the law
         requires it (the EEA, the UK and Switzerland), Google's consent form (its
         User Messaging Platform) is shown before any ad is requested, and your answer decides whether the
         ads you see are personalized. On iOS, ads are only personalized if you
@@ -198,7 +205,8 @@
       <p>
         Rewarded videos are always your choice: they give you a booster or a second
         chance when you ask for one. Nothing in the game forces you to watch
-        one.
+        one. When no paid banner is available, the banner space may show one of
+        our own other games instead; that is not a third-party ad.
       </p>
       <p><strong>Data collected:</strong></p>
       <ul>
@@ -207,6 +215,12 @@
         <li>IP address</li>
         <li>Ad interaction data</li>
       </ul>
+      <p>
+        AdMob runs an auction for each ad slot, and other advertising networks
+        bid in it through AdMob's mediation. Unity Ads and Liftoff Monetize take
+        part that way, so they can receive the same advertising identifier and
+        device information.
+      </p>
       <p>
         <strong>Opt-out:</strong> You can limit ad tracking in your device
         settings:
@@ -222,9 +236,17 @@
         </li>
       </ul>
       <p>
-        <strong>Privacy Policy:</strong>
+        <strong>Privacy Policies:</strong>
         <a href="https://policies.google.com/privacy" target="_blank"
           >Google Privacy Policy</a
+        >
+        &middot;
+        <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank"
+          >Unity Privacy Policy</a
+        >
+        &middot;
+        <a href="https://liftoff.ai/privacy-policy/" target="_blank"
+          >Liftoff Privacy Policy</a
         >
       </p>
     </div>
@@ -234,8 +256,9 @@
       <p>
         AppsFlyer tells us which advertisement a player arrived from, so that we
         know whether advertising the game was worth paying for. It counts the
-        install and the session, and it is told one thing afterwards: that a
-        level was completed, and which one.
+        install and the session, and afterwards it is told only that a level was
+        completed (and which one), that the first level's tutorial was finished,
+        and when one of our own games was shown or tapped in the banner space.
       </p>
       <p><strong>Data collected:</strong></p>
       <ul>
@@ -287,12 +310,10 @@
         Game progress: the level you are on, your boosters, your achievements
         and which tutorials you have seen
       </li>
-      <li>Settings preferences: music, sound and vibration</li>
       <li>
-        Your profile choices: avatar, frame and country flag, and the age range
-        you pick when the game first opens. These never leave your device.
+        Settings preferences: music, sound, voice, vibration and the board
+        options
       </li>
-      <li>That you accepted the <a href="terms-of-use.html">Terms of Use</a></li>
     </ul>
     <p>
       This data stays on your device. You can delete it by uninstalling the App.
@@ -320,7 +341,8 @@
       The App is not directed at children. We do not knowingly collect personal
       information from children under 13, and in fact the App collects no
       personal information from anyone. The third-party services we use
-      (Firebase, AdMob, AppsFlyer, Sentry) have their own policies regarding children's data.
+      (Firebase, AdMob and the networks bidding through it, AppsFlyer, Sentry)
+      have their own policies regarding children's data.
     </p>
     <p>
       If you are a parent or guardian and believe your child has provided
@@ -343,8 +365,8 @@
         data retention policy
       </li>
       <li>
-        <strong>Ad data:</strong> Managed by Google according to its privacy
-        policy
+        <strong>Ad data:</strong> Managed by Google, Unity and Liftoff according
+        to their privacy policies
       </li>
     </ul>
 
